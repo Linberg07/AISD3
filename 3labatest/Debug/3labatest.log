@@ -1,0 +1,5 @@
+﻿  3labatest.cpp
+C:\Users\ZeFFI\Desktop\программирование\Аисд\3laba\tree.h(217,9): warning C4101: max_elem: неиспользованная локальная переменная
+C:\Users\ZeFFI\Desktop\программирование\Аисд\3laba\tree.h(78): warning C4715: bft_iterator::next: значение возвращается не при всех путях выполнения
+     Создается библиотека C:\Users\ZeFFI\Desktop\программирование\Аисд\3laba\Debug\3labatest.lib и объект C:\Users\ZeFFI\Desktop\программирование\Аисд\3laba\Debug\3labatest.exp
+  3labatest.vcxproj -> C:\Users\ZeFFI\Desktop\программирование\Аисд\3laba\Debug\3labatest.dll
