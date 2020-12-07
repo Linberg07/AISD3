@@ -12,15 +12,15 @@ public:
     }
    
 
-    Node* front() {
+    Node* front() { //returns the element from the head of the queue without deleting. O (1)
         return begin->value;
     }
 
-    Node* back() {
+    Node* back() { //returns an item from the end of the queue without deleting it. O (1)
         return end->value;
     }
 
-    bool isEmpty() {
+    bool isEmpty() { //checks if the queue is empty. O (1)
         if (size == 0) return true;
         else return false;
     }
@@ -29,7 +29,7 @@ public:
         return size;
     }
 
-    void push(Node* value) {
+    void push(Node* value) { //adds an item to the end of the queue. O (1)
         Elem* temp = new Elem(value, nullptr);
         if (isEmpty()) begin = temp;
         else end->next = temp;
@@ -37,7 +37,7 @@ public:
         size++;
     }
 
-    void pop() {
+    void pop() { //removes the element from the head of the queue. O (1)
         Elem* temp = begin;
         begin = begin->next;
         delete temp;

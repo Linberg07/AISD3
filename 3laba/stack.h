@@ -10,11 +10,11 @@ public:
         top = nullptr;
     }
     
-    Node* getTop() {
+    Node* getTop() { //returns an item from the stack without removing. O (1)
         return top->value;
     }
 
-    void pop()
+    void pop() //removes an item from the stack. O (1)
     {
         Elem* temp = top;
         top = top->next;
@@ -22,7 +22,7 @@ public:
         size--;
     }
 
-    void push(Node* value) {
+    void push(Node* value) { //adds an item to the stack. O (1)
         top = new Elem(value, top);
         size++;
     }
@@ -30,7 +30,7 @@ public:
     size_t getSize() {
         return size;
     }
-    bool isEmpty() {
+    bool isEmpty() { //checks if the stack is empty. O (1)
         if (size == 0) return true;
         else return false;
     }
