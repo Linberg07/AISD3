@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\ZeFFI\Desktop\программирование\Аисд\3laba\tree.h(217,9): warning C4101: max_elem: неиспользованная локальная переменная
+C:\Users\ZeFFI\Desktop\программирование\Аисд\3laba\tree.h(78): warning C4715: bft_iterator::next: значение возвращается не при всех путях выполнения
+  3laba.vcxproj -> C:\Users\ZeFFI\Desktop\программирование\Аисд\3laba\Debug\3laba.exe
